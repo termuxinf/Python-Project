@@ -25,7 +25,6 @@ def file(speech):
     print("saved in " + file_name)
 ##MAIN START##
 
-#call the function which convert speech to text...And return string
 def main():
     speech = recog()
     print("You said :\n" + speech)
